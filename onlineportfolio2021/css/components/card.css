@@ -1,0 +1,21 @@
+
+
+.flex-container{
+    display: flex;
+ 
+}
+.item {
+    background-color: #666;
+    border: #ccc solid 2px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item-1 {
+    background-size: 1000px;
+    background-repeat: repeat-x;
+    background-position:center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg);
+}

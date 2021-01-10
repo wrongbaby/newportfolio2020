@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Larry Nevins | Front-End Developer </title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <ul>
+            
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://www.larrycodes.online/resume.html">RESUME</a></li>
+        </ul>
+        </nav>
+   
+    <div id="showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <h1>Hello, I'm <span class="text-primary"> <a class="text-primary"href="https://www.linkedin.com/in/larrynevins/">Larry Nevins</a></span>.</h1>
+                <h3>Front-end Developer</h3>
+                
+            </div>
+        </div>
+    </div>
+</header>
+
+<section >
+    <h1 class="title" >PROJECTS</h1>
+    <div class="flex-container">
+        
+       
+        <div class="item item-1">
+            <h3><a href="https://peaceful-lichterman-a1d2c6.netlify.app/">Item 1</a> </h3>
+        </div>
+        <div class="item item-2">
+            <h3>Item 2</h3>
+        </div>
+        <div class="item item-3" >
+            <h3>Item 3</h3>
+        </div>
+    </div>
+
+</section>
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("navbar");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+
+
+    
+</body>
+</html>

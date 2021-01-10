@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+}
+
+.text-primary {
+    color: #3CB9FF;
+}
+.text-primary:hover {
+    opacity: .8;
+
+}
+
+/* Header  */
+
+#navbar {
+    background-color:white;
+    color: black;
+    overflow: auto;
+}
+
+#navbar a{
+    color: black;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: #666;
+    color: #3CB9FF;
+}
+
+/* sticky header */
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+/* showcase */
+
+#showcase {
+    height: 420px;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+}
+
+#showcase .showcase-content{ 
+    
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    
+}
+
+
+
+/* cards */
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
+.item {
+    background-color: #666;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.item:hover{ 
+    opacity: 0.4 ;
+}
+
+.item-1 {
+    color: red;
+    background-size: 1000px;
+    background-repeat: repeat-x;
+    background-position:center;
+    background-image:  url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg);
+}
+
+.title{
+        text-align: center;
+        color: #3bb9ff;
+        font-size: 64px;
+        padding-top: 170px;
+}
+
+
+
+/* about page */
+.aboutContent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8vh;
+}
+
+.aboutPortrait{
+    width: 500px;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: white 1px solid;
+}
+
+
+
